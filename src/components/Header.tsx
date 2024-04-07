@@ -155,10 +155,10 @@ const Header: React.FC = () => {
         </nav>
       )}
       {!isMobile && (
-        <nav className="me-5">
+        <nav>
           <ul
             style={{ color: headerStyle.color }}
-            className="nav"
+            className="nav text-uppercase"
           >
             <li className="nav-item">
               <a style={{ color:headerStyle.color }} className="nav-link active" aria-current="page" href="#">

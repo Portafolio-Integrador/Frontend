@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <Header title="Bienvenido a Booking Pets" />
+        <Header />
       </header>
       <main>
         <Home />
